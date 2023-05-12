@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="learn.css" />
+  </head>
+  <body>
+    <div class="container">
+        <form class="container-form" onsubmit="return FormInput()">
+        <i class="fas fa-paper-plane"></i>
+        <h1><center>Form</center></h1>
+        
+        
+        <div class="input-group">
+          <label for="">Full name :</label>
+          <input 
+          class="input_feild" 
+          type="text" 
+          id="fullname" 
+          placeholder="  Enter Name" />
+        </div>
+
+        <div class="input-group">
+          <label>Email Id :</label>
+          <input 
+          class="input_feild" 
+          type="text" 
+          id="email" 
+          placeholder="  Enter Mail" />
+        </div>
+
+        <div class="input-group">
+          <label>Phone No:      </label>
+          <input
+           class="input_feild" 
+           type="tel"
+           id="Phone" />
+        </div>
+
+        <div class="input-group">
+          <label>DOB:</label>
+          <input class="input_feild"
+           type="date"
+           id="DOB"
+           placeholder="" />
+        </div>
+
+        <div class="input-group">
+            <label>I konw :-</label>
+            <label>Java</label>
+          <input
+            type="checkbox"
+            id="language"
+            value="coding">
+
+            <label>QA</label>
+            <input
+            type="checkbox"
+            id="language"
+            name="QA"
+            value="Testing">
+        </div>
+
+        <div class="input-group">
+            <p>Select your Nationality:-</p>
+            <label>Indian:</label>
+            
+            <input 
+            type="radio"
+            id="Indian"
+            value="Indian"
+            name="opt">
+
+           <label>Bhartiya:</label>
+
+            <input
+            type="radio"
+            id="Bhartiya"
+            value="Bhartiya"
+            name="opt">
+            
+
+
+        </div> 
+
+
+        <button type="submit">Enter</button>
+      </form>
+    </div>
+    <script src="learn.js"></script>
+  </body>
+</html>
